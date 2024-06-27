@@ -1,3 +1,23 @@
-@media screen {
-    
+@charset "UTF-8";
+
+header{
+    background-color: rgb(29, 38, 58);
+    text-align: center;
+    padding: 20px;
 }
+
+header > a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+
+
+.botaoacesseplataforma{
+    background-color:rgb(250, 103, 53);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
