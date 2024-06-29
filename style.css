@@ -12,7 +12,6 @@ header > a {
     color: white;
 }
 
-
 .botaoacesseplataforma{
     background-color:rgb(250, 103, 53);
     color: white;
@@ -23,7 +22,7 @@ header > a {
 
 .imgmulhercomchave { /*Imagem da Mulher com chave */
     display: flex;
-    
+
 }
 
 .titulofelicidade {
@@ -60,4 +59,29 @@ header > a {
     display: block;
     margin: auto;
 
+}
+
+
+@media (max-width: 767px){
+
+    body,html{
+        width: 480px;
+    }
+    .headernone{ 
+        display: none;
+    }
+
+    .tabela {
+        font-size: 11px;
+        display: flex;
+        flex-direction: column ;
+        
+    }
+    .titulovantagens {
+        width: 500px;
+    }
+
+    .valeapenanone{
+        display: none;
+    }
 }
