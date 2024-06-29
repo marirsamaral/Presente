@@ -33,8 +33,7 @@
     <!--Menu-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <img src="midia/logogrande.png" alt="logo">
-
+          <img class="img-fluid" src="midia/logogrande.png" alt="logo">
       
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -74,13 +73,13 @@
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img style="display: block; margin: auto;" src="midia/carrosel1.png" class="d-block w-55" alt="Slide 1">
+              <img style="display: block; margin: auto;" src="midia/carrosel1.png" class="d-block w-55 img-fluid" alt="Slide 1">
             </div>
             <div class="carousel-item">
-              <img style="display: block; margin: auto;" src="midia/carrosel2.png" class="d-block w-55" alt="Slide 2">
+              <img  style="display: block; margin: auto;" src="midia/carrosel2.png" class="d-block w-55 img-fluid" alt="Slide 2">
             </div>
             <div class="carousel-item">
-              <img style="display: block; margin: auto;" src="midia/carrosel3.png" class="d-block w-55" alt="Slide 3">
+              <img style="display: block; margin: auto;" src="midia/carrosel3.png" class="d-block w-55 img-fluid" alt="Slide 3">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -143,67 +142,70 @@
 
       <!--A felicidade de quem voltou a dirigir.-->
       <div style="background-color: var(--darkblue-color);">
-        <img class="imagemfelicidade" src="midia/mulher-chave-final-habilitese.png" class="img-fluid" alt="Mulher com chave">
-        <h2 style="font-weight: bolder; width: 400px;color: white; margin: auto;" class="fs-1">
-          A felicidade de quem voltou a dirigir.</h2>
-          <p class="fw-light" style="color: rgba(255, 255, 255, 0.671); display: block; text-align: right; width: 400px;">CNH Suspensa? Estourou em pontos? Em uma semana você pode recuperar o direito de dirigir.</p>
+
+        <div class="imgmulhercomchave">
+          <img class="img-fluid" style="width: 390px; height: 350px;" src="midia/mulher-chave-final-habilitese.png" alt="Mulher com chave">
+        </div>
+
+        <div class= "titulofelicidade">
+          <h2 style="font-weight: bolder; width: 400px;color: white;">
+            A felicidade de quem voltou a dirigir.</h2>
+        </div>
+
       </div>
 
       <!--Vantagens de ser uma parceiro Habilite-se--> 
-      <div>
-        <h2 style="width: 520px; margin: auto; font-size: 45px;font-weight: bolder; padding-bottom: 70px;">Vantagens de ser um parceiro Habilite-se </h2>
+      <div class="titulovantagens">
+        <h2 style="width: 620px; font: size 2.7em;font-weight: bolder; ">Vantagens de ser um parceiro Habilite-se </h2>
       </div>
 
       <!--Atendimento-->
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div style="width: 450px; display: block; margin: auto; height: 480px; padding: 20px;" class="col">
-          <div class="card">
-            <img style="width: 100px; padding: 15px;margin: auto;" src="midia/imgatendimento.png" class="card-img-top" alt="Atendimento">
-            <div class="card-body">
-              <h5 style="text-align: center; color: var(--orange-color);" class="card-title">Atendimento</h5>
-              <p class="card-text">Sim, nós somos mais legais, e estamos sempre estudando para atender os CFCs da nossa Família da melhor forma possível, fazendo parte da família Habilite-se seu CFC vai receber um atendimento especializado que além de entender as necessidades do seu dia-a-dia consegue orientar seu time, mesmo nas dúvidas mais técnicas. <br>
-                Sabemos que nem sempre é fácil traduzir as mensagens de erros que aparecem, nos sistemas, não é mesmo? <br>
-                Ah! Nosso atendimento é humanizado hein, ou seja, por aqui nada de robôs.</p>
+        <div class="vantagens">
+          <div>
+            <div class="campovantagens">
+              <img style="width: 100px; padding: 15px;margin: auto;" src="midia/imgatendimento.png" alt="Atendimento">
+              <div class="card-body">
+                <h5 style="text-align: center; color: var(--orange-color);" class="card-title">Atendimento</h5>
+                <p class="card-text">Sim, nós somos mais legais, e estamos sempre estudando para atender os CFCs da nossa Família da melhor forma possível, fazendo parte da família Habilite-se seu CFC vai receber um atendimento especializado que além de entender as necessidades do seu dia-a-dia consegue orientar seu time, mesmo nas dúvidas mais técnicas. <br>
+                  Sabemos que nem sempre é fácil traduzir as mensagens de erros que aparecem, nos sistemas, não é mesmo? <br>
+                  Ah! Nosso atendimento é humanizado hein, ou seja, por aqui nada de robôs.</p>
+              </div>
+            </div>
+          </div>
+          <!--Resposta Rapida-->
+          <div >
+            <div class="campovantagens">
+              <img style="width: 100px; padding: 15px;margin: auto;" src="midia/imgrespostarapida.png" class="card-img-top" alt="Resposta Rapida">
+              <div class="card-body">
+                <h5 style="text-align: center; color: var(--orange-color);"  class="card-title">Resposta Rapida</h5>
+                <p class="card-text">Na Habilite-se, nossos canais de comunicação funcionam por mensagens, ligações ou até mesmo e-mails.
+                  Em qualquer uma das opções, você conseguirá falar conosco, nosso time se empenha ao máximo para que você receba sua resposta quanto antes, nós nos empenhamos ao máximo para que nosso atendimento esteja a altura do seu CFC. Se você já trabalha a um bom tempo, nós sabemos bem o descaso que você já passou, pode vir para habilite-se e experimente o atendimento que você merece.</p>
+              </div>
+            </div>
+          </div>
+          <!--Migração-->
+          <div >
+            <div class="campovantagens">
+              <img style="width: 100px; padding: 15px;margin: auto;" src="midia/imgmigracao.png" class="card-img-top" alt="Migração">
+              <div class="card-body">
+                <h5 style="text-align: center; color: var(--orange-color);" class="card-title">Migração</h5>
+                <p class="card-text">Eu sei, você está acostumado com com o transtorno que é migrar seu CFC B, para mudar de categoria para CFC A ou A/B, é bem complicado. Nós oferecemos, uma consultoria com profissionais com anos de experiência, ajudando e orientando o passo a passo para fazer a migração. <br>
+                  Sem dor de cabeça, tudo devidamente planejado e ajustado para a realidade do seu CFC. Não tem jeito, na Habilite-se você tem um problema e nós temos a solução.</p>
+              </div>
+            </div>
+          </div>
+          <!--Economia-->
+          <div >
+            <div class="campovantagens">
+              <img style="width: 100px; padding: 15px;margin: auto;" src="midia/imgeconomia.png" class="card-img-top" alt="Economia">
+              <div class="card-body">
+                <h5 style="text-align: center; color: var(--orange-color);" class="card-title">Economia</h5>
+                <p class="card-text">Imagina a economia que fará ao longo do ano? Imagina pegar apenas a diferença que economizará todo mês e colocar para render, certamente no final do ano poderá fazer aquela viagem merecida ou a reforma e as melhorias que tanto gostaria de fazer em seu CFC, só com a economia, ignorando todas as outras vantagens que já mencionamos. <br>
+                  São várias opções, vindo para Habilite-se você só tem a ganhar!</p>
+              </div>
             </div>
           </div>
         </div>
-
-        <!--Resposta Rapida-->
-        <div style="width: 450px; display: block; margin: auto; height: 480px;"  class="col">
-          <div class="card">
-            <img style="width: 100px; padding: 15px;margin: auto;" src="midia/imgrespostarapida.png" class="card-img-top" alt="Resposta Rapida">
-            <div class="card-body">
-              <h5 style="text-align: center; color: var(--orange-color);"  class="card-title">Resposta Rapida</h5>
-              <p class="card-text">Na Habilite-se, nossos canais de comunicação funcionam por mensagens, ligações ou até mesmo e-mails.
-                Em qualquer uma das opções, você conseguirá falar conosco, nosso time se empenha ao máximo para que você receba sua resposta quanto antes, nós nos empenhamos ao máximo para que nosso atendimento esteja a altura do seu CFC. Se você já trabalha a um bom tempo, nós sabemos bem o descaso que você já passou, pode vir para habilite-se e experimente o atendimento que você merece.</p>
-            </div>
-          </div>
-        </div>
-
-        <!--Migração-->
-        <div style="width: 480px; display: block; margin: auto; height: 450px;" class="col">
-          <div class="card">
-            <img style="width: 100px; padding: 15px;margin: auto;" src="midia/imgmigracao.png" class="card-img-top" alt="Migração">
-            <div class="card-body">
-              <h5 style="text-align: center; color: var(--orange-color);" class="card-title">Migração</h5>
-              <p class="card-text">Eu sei, você está acostumado com com o transtorno que é migrar seu CFC B, para mudar de categoria para CFC A ou A/B, é bem complicado. Nós oferecemos, uma consultoria com profissionais com anos de experiência, ajudando e orientando o passo a passo para fazer a migração. <br>
-                Sem dor de cabeça, tudo devidamente planejado e ajustado para a realidade do seu CFC. Não tem jeito, na Habilite-se você tem um problema e nós temos a solução.</p>
-            </div>
-          </div>
-        </div>
-
-        <!--Economia-->
-        <div style="width: 450px; display: block; margin: auto; height: 450px;" class="col">
-          <div class="card">
-            <img style="width: 100px; padding: 15px;margin: auto;" src="midia/imgeconomia.png" class="card-img-top" alt="Economia">
-            <div class="card-body">
-              <h5 style="text-align: center; color: var(--orange-color);" class="card-title">Economia</h5>
-              <p class="card-text">Imagina a economia que fará ao longo do ano? Imagina pegar apenas a diferença que economizará todo mês e colocar para render, certamente no final do ano poderá fazer aquela viagem merecida ou a reforma e as melhorias que tanto gostaria de fazer em seu CFC, só com a economia, ignorando todas as outras vantagens que já mencionamos. <br>
-                São várias opções, vindo para Habilite-se você só tem a ganhar!</p>
-            </div>
-          </div>
-        </div>
-      </div>
 
         <!--Acho que já deu para entender que não tem....-->
       <div style="background-color: var(--lightblue-color); padding: 25px;">
@@ -215,15 +217,54 @@
         </div>
       </div>
 
+      <!--Os aluno na plataforma Habilite-se estão em boa mãos-->
       <div style="background-color: var(--darkblue2-color); height: 800px;">
         <h2 style="width: 650px; margin: auto; font-size: 45px;font-weight: bolder; padding-bottom: 70px; text-align: center; color: white; padding-top: 50px;">Os aluno na plataforma Habilite-se estão em boa mãos </h2>
 
-        <div class="text-center">
-          <img src="midia/segundocarrosel.png" class="rounded" alt="...">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="midia/segundocarrosel.png" class="d-block w-10" alt="...">
+              <img src="midia/segundocarresel2.png" class="d-block w-10" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="midia/segundocarresel2.png" class="d-block w-10" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <img src="midia/segundocarresel2.png" class="rounded float-start" alt="...">
+
+      <!--Vale a Pena-->
+      <div style="background-color: var(--mediumblue-color); padding: 100px 0px 120px 120px;">
+        <img class="img-fluid" src="midia/imgvaleapena.png" alt="Imgem Vale a Pena">
+
+        <h2 style="width: 410px; margin: auto; font-size: 45px;font-weight: bolder; padding-bottom: 70px; color: white;">Vale a Pena Vir Para Habilite-se?</h2>
+
+        <div class="card-body valeapena">
+          <p  style="color: rgba(255, 255, 255, 0.404);width: 410px;" class="card-text valeapenaitem1">Para responder essa pergunta, decidimos perguntar para quem tem propriedades para responder…</p>
+          <a style="display: block; margin: auto; width: 300px; padding: 13px; background-color: var(--darkblue2-color); border: none; font-weight: bolder;" href="#" class="btn btn-primary">Quero a visita de um consultor</a>
+        </div>
       </div>
       
+      
+
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

@@ -21,3 +21,43 @@ header > a {
     padding: 10px;
 }
 
+.imgmulhercomchave { /*Imagem da Mulher com chave */
+    display: flex;
+    
+}
+
+.titulofelicidade {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.titulovantagens { /*Titulo Vantagens*/
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+} 
+
+.vantagens { /*Configuração Geral dos campos de Vantagens*/
+    padding: 30px;
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 60px;
+   justify-content: center;
+}
+
+.campovantagens { /*Configuração dos campos de Vantagens*/
+    border: 2px solid rgba(0, 0, 0, 0.082);
+    width: 450px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.campovantagens > img { /*Configuração da imagem dos campo de Vantagens*/
+    display: block;
+    margin: auto;
+
+}
