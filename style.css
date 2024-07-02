@@ -61,6 +61,42 @@ header > a {
 
 }
 
+.py-5  {
+    background-color: rgb(244, 250, 254);
+}
+
+.card{
+    height: 550px;
+    background-color: rgb(244, 250, 254);
+    font-size: 14px;
+}
+
+.card-body > h5  {
+    margin-bottom: 20px;
+}
+
+.card-body > h6 {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.card-text {
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.card > img {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.estrela {
+    width: 120px;
+    margin-top: 40px;
+}
 
 @media (max-width: 767px){
 
