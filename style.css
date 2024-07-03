@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+:root {
+    --orange-color: rgb(250, 103, 53);
+    --lightblue-color: rgb(244, 250, 254);
+    --darkblue-color: rgb(10, 37, 53);
+    --mediumblue-color: rgb(50, 97, 125);
+    --darkblue2-color: rgb(10, 37, 53);
+}
+
 header{
     background-color: rgb(29, 38, 58);
     text-align: center;
@@ -65,11 +73,13 @@ header > a {
     background-color: rgb(244, 250, 254);
 }
 
-.card{
+.cartao{
     height: 550px;
-    background-color: rgb(244, 250, 254);
     font-size: 14px;
+    background-color: rgb(244, 250, 254);
 }
+
+
 
 .card-body > h5  {
     margin-bottom: 20px;
@@ -98,6 +108,22 @@ header > a {
     margin-top: 40px;
 }
 
+.tituloescolha{
+    color: var(--orange-color);
+    display: flex;
+    justify-content: end;
+}
+
+.txtescolha{
+    font-size: 13px;
+    width: 400px;
+}
+
+.cardescolha{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
 @media (max-width: 767px){
 
     body,html{
