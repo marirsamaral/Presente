@@ -69,6 +69,10 @@ header > a {
 
 }
 
+.container {
+    background-color: rgb(244, 250, 254);
+}
+
 .py-5  {
     background-color: rgb(244, 250, 254);
 }
@@ -124,6 +128,15 @@ header > a {
     justify-content: end;
     flex-direction: row;
 }
+
+.vamosconversar{
+    background-color: var(--darkblue2-color);
+    display: flex;
+    justify-content: end;
+    width: 75%;
+}
+
+
 @media (max-width: 767px){
 
     body,html{
@@ -145,5 +158,10 @@ header > a {
 
     .valeapenanone{
         display: none;
+    }
+
+    .lertodos{
+        display: block;
+        margin: auto;
     }
 }
