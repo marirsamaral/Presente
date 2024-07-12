@@ -177,6 +177,7 @@ header > a {
 
     body,html{
         width: 480px;
+        overflow-x: hidden;
     }
     .headernone{ 
         display: none;
