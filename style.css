@@ -201,6 +201,9 @@ header > a {
         width: 500px;
     }
 
+    .felicidadeblock{
+        display: none;
+    }
     .valeapenanone{
         display: none;
     }
