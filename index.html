@@ -92,18 +92,16 @@
           </button>
         </div>
   
-
-      <h1 style="width: 550px; margin: auto;margin-top: 120px;margin-bottom: 40px;">
-        A Habilite-se tem o curso e a prova que você precisa</h1>
-        
-     
       <!--Tabela Curso Homologados-->
+      <h1 class="cursos" style="width: 550px; margin: auto;margin-top: 120px;margin-bottom: 40px;">
+        A Habilite-se tem o curso e a prova que você precisa</h1>
+
       <div>
         <table class="table table-borderless tabela" style="width: 900px; margin: auto;margin-bottom: 40px;">
           <thead>
             <tr>
               <th scope="col"></th>
-              <th scope="col tabela1">Cursos já homologados</th>
+              <th scope="col tabela1 homo">Cursos já homologados</th>
               <th scope="col tabela1">Provas</th>
             </tr>
           </thead>
@@ -141,15 +139,19 @@
       </div>
 
       <!--A felicidade de quem voltou a dirigir.-->
-      <div style="background-color: var(--darkblue-color);">
+      <div style="background-color: var(--darkblue-color); height: 500px;">
 
-        <div class="imgmulhercomchave">
+        <div class="imgmulhercomchave"  >
           <img class="img-fluid" style="width: 390px; height: 350px; margin-left: 200px; margin-top: 20px;" src="midia/mulher-chave-final-habilitese.png" alt="Mulher com chave">
-          <div class= "titulofelicidade">
-            <h2 style="font-weight: bolder; width: 400px;color: white;">A felicidade de quem voltou a dirigir.</h2>
-            <p style="color: white;">CNH Suspensa? Estourou em pontos? Em uma semana você pode recuperar o direito de dirigir.</p>
+          <div style=" height: 80px;">
+            <h2 style="font-weight: bolder; width: 400px;color: white; margin-top: 100px; margin-left: 70px;">A felicidade de quem voltou a dirigir.</h2>
+          </div>  
           
+          <div>
+            <p style="color: white; margin-top: 220px; margin-left: -400px; width: 400px; ">CNH Suspensa? Estourou em pontos? Em uma semana você pode recuperar o direito de dirigir.</p>
           </div>
+          
+          <div><a style="display: block; margin: auto; width: 280px; padding: 13px; background-color: var(--mediumblue-color); border: none; font-weight: bolder; margin-left: -380px; margin-top: 300px;  color: white;" href="#" class="btn btn-primary">Curso de Reciclagem Habilite-se</a></div>
         </div>
       </div>
 
@@ -216,50 +218,22 @@
         </div>
       </div>
 
-      <!--Os aluno na plataforma Habilite-se estão em boa mãos-->
-      <div style="background-color: var(--darkblue2-color); height: 800px;">
-        <h2 style="width: 650px; margin: auto; font-size: 45px;font-weight: bolder; padding-bottom: 70px; text-align: center; color: white; padding-top: 50px;">Os aluno na plataforma Habilite-se estão em boa mãos </h2>
-
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active teste" data-bs-interval="10000">
-              <img src="midia/segundocarrosel.png" class="d-block w-10" alt="...">
-              <img src="midia/segundocarresel2.png" class="d-block w-10" alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="midia/segundocarresel2.png" class="d-block w-10" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+      
 
       <!--Vale a Pena-->
-      <div style="background-color: var(--mediumblue-color);" class="valeapenanone">
+      <div style="background-color: var(--mediumblue-color); height: 600px;" class="valeapenanone">
         <img class="img-fluid" src="midia/imgvaleapena.png" alt="Imgem Vale a Pena">
 
         <div style="display: flex; justify-content: end; margin-right: 200px;" >
-          <h2 style="width: 410px; font-size: 45px;font-weight: bolder; color: white;">Vale a Pena Vir Para Habilite-se?</h2>
+          <h2 style="width: 410px; font-size: 45px;font-weight: bolder; color: white; margin-top: -400px;">Vale a Pena Vir Para Habilite-se?</h2>
         </div>
 
-        <div style="display: flex; justify-content: end;" class="card-body valeapena">
-          <p  style="color: rgba(255, 255, 255, 0.404);width: 410px;" class="card-text valeapenaitem1">Para responder essa pergunta, decidimos perguntar para quem tem propriedades para responder…</p>
-          <a style="display: block; width: 300px; padding: 13px; background-color: var(--darkblue2-color); border: none; font-weight: bolder;" href="#" class="btn btn-primary">Quero a visita de um consultor</a>
-        </div>
+        <div class="card-body valeapena text-center" style="display: flex; justify-content: center;">
+          <p  style="color: rgba(255, 255, 255, 0.404);width: 410px; margin-left: 450px; height: 50px; margin-top: -240px; " class="card-text valeapenaitem1">Para responder essa pergunta, decidimos perguntar para quem tem propriedades para responder…</p>
+        </div> 
+        
+        <div><a style="display: block; margin: auto; width: 280px; padding: 13px; background-color: var(--darkblue2-color); border: none; font-weight: bolder; margin-right: 280px; margin-top: -180px;" href="#" class="btn btn-primary">Quero a visita de um consultor</a></div>
+        
       </div>
       
       <!--Card de Avaliações-->
@@ -308,7 +282,7 @@
           </div>
           <div class="col-md-8">
             <div class="card-body cardescolha">
-              <h5 class="card-title tituloescolha position-absolute top-50 end-0 translate-middle-y">1 Feita pra você</h5>
+              <h5 class="card-title tituloescolha position-absolute top-50 end-0 translate-middle-y" style="margin-right: 200px; margin-top: -100px;">1 Feita pra você</h5>
               <p class="card-text txtescolha position-absolute top-50 end-0 translate-middle-y">Simples, porque nós sabemos exatamente o que você está passando, seja você aluno ou CFC. A Habilite-se foi criada na contramão de outras empresas, isto é, nós criamos a Habilite-se olhando de perto as dificuldades dos CFC’s, pois passamos meses dentro das unidades dos CFC's, prestando atenção aos mínimos detalhes. Isso vai desde onde intuitivamente os funcionários clicavam primeiro no sistema, até qual a dificuldade real nos entendimentos dos problemas reportados pelo Detran/Prodesp.</p>
             </div>
           </div>
@@ -323,8 +297,8 @@
           </div>
           <div class="col-md-8">
             <div class="card-body cardescolha">
-              <h5 class="card-title tituloescolha">2 Equipe Profissional</h5>
-              <p class="card-text txtescolha position-absolute top-50 start-10 translate-middle-x">Para cumprir essa missão reunimos profissionais fantásticos das mais diferentes áreas, donos e profissionais que estão todo dia dentro do CFC, Programadores, Educadores, Tecnólogos, Generalistas, Especialistas, todos com o único propósito de criar uma empresa com o foco em realmente atender as necessidades dos CFC's e dos Alunos de forma objetiva e sem muitos rodeios.</p>
+              <h5 class="card-title tituloescolha" style= " margin-right: 340px; margin-top: 80px;">2 Equipe Profissional</h5>
+              <p class="card-text txtescolha position-absolute top-50 start-10 translate-middle-x" style="margin-right: 100px; margin-top: -50px;">Para cumprir essa missão reunimos profissionais fantásticos das mais diferentes áreas, donos e profissionais que estão todo dia dentro do CFC, Programadores, Educadores, Tecnólogos, Generalistas, Especialistas, todos com o único propósito de criar uma empresa com o foco em realmente atender as necessidades dos CFC's e dos Alunos de forma objetiva e sem muitos rodeios.</p>
             </div>
           </div>
         </div>
@@ -338,8 +312,8 @@
           </div>
           <div class="col-md-8">
             <div class="card-body cardescolha">
-              <h5 class="card-title tituloescolha position-absolute top-30 end-35 translate-middle-y">3 Entendemos Você</h5>
-              <p class="card-text txtescolha position-absolute top-50 end-0 translate-middle-y">O mais importante: nós entendemos que você que está lendo vai além de uma empresa, em primeiro lugar você é uma pessoa e nós respeitamos isso. Para esse propósito, preparamos as pessoas que são o DNA da nossa empresa para atender você da melhor maneira, pois acreditamos que quando um aluno faz um curso de Reciclagem, Renovação ou Primeira Habilitação, ele é impactado por todo esse cuidado que foi planejado para ele também.</p>
+              <h5 class="card-title tituloescolha " style="margin-top: -260px; margin-right: -120px;">3 Entendemos Você</h5>
+              <p class="card-text txtescolha position-absolute top-50 end-0 translate-middle-y" style="margin-right: 50px;">O mais importante: nós entendemos que você que está lendo vai além de uma empresa, em primeiro lugar você é uma pessoa e nós respeitamos isso. Para esse propósito, preparamos as pessoas que são o DNA da nossa empresa para atender você da melhor maneira, pois acreditamos que quando um aluno faz um curso de Reciclagem, Renovação ou Primeira Habilitação, ele é impactado por todo esse cuidado que foi planejado para ele também.</p>
             </div>
           </div>
         </div>
@@ -349,12 +323,12 @@
       <div class="card mb-3" style="max-width: 890px; margin: auto; height: 370px;">
         <div class="row g-0">
           <div class="col-md-6">
-            <img src="midia/imgescolha4.png" style="width: 505px;" class="img-fluid position-absolute top-0 end-0" alt="Imagem Feito para vc">
+            <img src="midia/imgescolha4.png" style="width: 505px;" class="img-fluid position-absolute top-0 end-0" alt="4 Você precisa Lucrar">
           </div>
           <div class="col-md-8">
             <div class="card-body cardescolha">
-              <h5 class="card-title tituloescolha position-absolute top-50 end-35 translate-middle-y">4 Você precisa Lucrar</h5>
-              <p class="card-text txtescolha position-absolute top-50 end-0 translate-middle-y">Além disto, entendemos que sua empresa precisa lucrar, que você não trabalha por diversão e estamos aqui para oferecer preço justo e atendimento de qualidade. Não perca tempo e nem dinheiro, venha agora mesmo para Habilite-se.</p>
+              <h5 class="card-title tituloescolha position-absolute top-50 end-35 translate-middle-y" style="margin-right: 300px; margin-top: -100px;">4 Você precisa Lucrar</h5>
+              <p class="card-text txtescolha position-absolute top-50 end-0 translate-middle-y" style="margin-right: 450px; margin-top: -10px;">Além disto, entendemos que sua empresa precisa lucrar, que você não trabalha por diversão e estamos aqui para oferecer preço justo e atendimento de qualidade. Não perca tempo e nem dinheiro, venha agora mesmo para Habilite-se.</p>
             </div>
           </div>
         </div>
@@ -413,7 +387,7 @@
         <div class="d-flex align-items-center">
           <h2 style="width: 410px; font-size: 45px;font-weight: bolder; color: white; padding-left: 200px; margin-top: 100px; ">Vamos Conversar?
           </h2>
-          <p class="" style="width: 300px; color: white;margin-top: 300px; ">É acho que depois de tudo isso merecemos bater um papo, né?
+          <p style="width: 300px; color: white;margin-top: 300px; margin-left: -200px; ">É acho que depois de tudo isso merecemos bater um papo, né?
           </p>
         </div>
 

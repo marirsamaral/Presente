@@ -33,15 +33,8 @@ header > a {
 
 }
 
-.titulofelicidade  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.titulofelicidade > p {
-    flex-direction: initial;
-}
+
 
 
 .titulovantagens { /*Titulo Vantagens*/
@@ -118,8 +111,6 @@ header > a {
 
 .tituloescolha{
     color: var(--orange-color);
-    display: flex;
-    justify-content: end;
 }
 
 .txtescolha{
@@ -167,7 +158,6 @@ header > a {
     background-color: var(--darkblue-color);
 }
 
-
 .final{
     background-color: var(--darkblue-color);
 }
@@ -196,8 +186,17 @@ header > a {
         font-size: 11px;
         display: flex;
         flex-direction: column ;
-        
     }
+
+    .cursos{
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .homo {
+        margin: 200px
+    }
+
     .titulovantagens {
         width: 500px;
     }
