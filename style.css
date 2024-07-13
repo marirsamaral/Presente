@@ -235,9 +235,22 @@ header > a {
         margin-top: 50px;
     }
 
+    .geralconversar{
+        height: 1000px;
+        background-color: var(--mediumblue-color);
+    }
+
    .conversar{
-    margin-top: -300px;
-    margin-right: 500px;
+    margin-bottom: 500px;
+    margin-left: -100px;
+   }
+
+   .conversar2{
+    margin-bottom: 400px;
+   }
+   
+   .balao{
+    margin-top: -370px;
    }
 }
 
