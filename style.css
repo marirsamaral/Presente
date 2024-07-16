@@ -217,6 +217,12 @@ header > a {
         margin: auto;
     }
 
+    .card > img {
+        display: block;
+        margin: auto;
+        padding: 30px;
+    }
+
     .escolhablock{ 
         display: none;
     }
