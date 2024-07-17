@@ -139,20 +139,20 @@ header > a {
 .balao{
     display: flex;
     justify-content: end;
-    margin-right: 40px;
+    margin-right: 200px;
     margin-top: -250px;
 }
 
 .balao2{
     display: flex;
     justify-content: end;
-    margin-right: 40px;
+    margin-right: 200px;
 }
 
 .balao3{
     display: flex;
     justify-content: end;
-    margin-right: 40px;
+    margin-right: 200px;
 }
 
 .custom-bg{
@@ -250,15 +250,27 @@ header > a {
 
    .conversar{
     margin-bottom: 500px;
-    margin-left: -100px;
+    
    }
 
    .conversar2{
     margin-bottom: 400px;
+    margin-top: 100px;
+    
    }
    
    .balao{
     margin-top: -370px;
+    margin-right: 40px;
+    margin-left: 40px;
+   }
+   .balao2{
+    margin-right: 40px;
+    margin-left: 40px;
+   }
+   .balao3{
+    margin-right: 40px;
+    margin-left: 40px;
    }
 }
 
